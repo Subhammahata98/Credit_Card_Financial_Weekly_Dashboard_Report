@@ -1,10 +1,10 @@
 # Credit_Card_Financial_Weekly_Dashboard_Report
 Power BI Dashboard
-Project Objective
+Project Objective:
  Todevelop a comprehensive credit  card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
  Prepare CSV File and upload in Power BI
  Add Few column and measures by using DAX
- DAXQueries
+ DAXQueries:
  AgeGroup = SWITCH(
  TRUE(),
  'customer'[Customer_Age] < 30, "20-30",
